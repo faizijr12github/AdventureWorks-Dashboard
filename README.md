@@ -1,4 +1,5 @@
 📊 AdventureWorks Sales Dashboard (Power BI)
+
 📖 Overview
 
 This project showcases an end-to-end Business Intelligence solution built using the AdventureWorks dataset, where SQL Server is integrated with Power BI to transform raw data into meaningful insights.
