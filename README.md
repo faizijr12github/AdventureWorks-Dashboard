@@ -172,3 +172,17 @@ Transformed raw data into actionable insights
 Built a scalable and optimized data model
 
 Delivered business-focused dashboards for decision-making
+
+📊 Summary
+<img width="1394" height="615" alt="Screenshot 2026-03-17 223156" src="https://github.com/user-attachments/assets/510a29e8-129e-4e95-9c2d-b4e9162dfcc1" />
+
+📊 Customer Details
+<img width="1391" height="619" alt="Screenshot 2026-03-17 223703" src="https://github.com/user-attachments/assets/1e8b0353-27ad-491a-9ac0-2e9facb6596f" />
+
+📊 Product Details
+<img width="1396" height="616" alt="Screenshot 2026-03-17 223841" src="https://github.com/user-attachments/assets/22033eb3-d657-4fe2-bfdc-c5293388e895" />
+
+☑️ Data Modeling
+<img width="745" height="591" alt="Screenshot 2026-03-17 224450" src="https://github.com/user-attachments/assets/d5aa4806-7ab5-4b24-a384-7ed6a8662c35" />
+
+
