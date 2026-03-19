@@ -1,189 +1,206 @@
-📊 AdventureWorks Sales Dashboard (Power BI)
+# AdventureWorks Sales Dashboard — Power BI
 
-📖 Overview
+> *An end-to-end Business Intelligence solution connecting SQL Server with Power BI — transforming raw transactional data into strategic sales, customer, and product insights.*
 
-This project showcases an end-to-end Business Intelligence solution built using the AdventureWorks dataset, where SQL Server is integrated with Power BI to transform raw data into meaningful insights.
+---
 
-The project focuses on data modeling, transformation, and storytelling, enabling a comprehensive analysis of sales, customers, and product performance.
+## Overview
 
-🎯 Objectives
+This project showcases a **complete Business Intelligence solution** built using the **AdventureWorks dataset**, where **SQL Server** is integrated with **Power BI** to transform raw data into meaningful, decision-ready insights.
 
-Connect SQL Server with Power BI
+The project covers the full BI workflow — from data extraction and transformation to modeling and interactive dashboard design — with a strong focus on **data storytelling** across sales, customer, and product performance.
 
-Perform data transformation using Power Query
+---
 
-Build a Snowflake Schema data model
+## Objectives
 
-Apply data modeling concepts
+-  Connect **SQL Server** with **Power BI** as a live data source
+-  Perform data transformation and cleaning using **Power Query**
+-  Build a **Snowflake Schema** data model for normalized, scalable analytics
+-  Apply advanced **data modeling** concepts and relationship management
+-  Create **interactive, multi-page dashboards**
+-  Deliver compelling **data-driven storytelling** and business insights
 
-Create interactive dashboards
+---
 
-Deliver data-driven storytelling and insights
+## Tools & Technologies
 
-🛠️ Tools & Technologies
+| Tool / Technology | Purpose |
+|---|---|
+| **SQL Server** | Data source and raw data storage |
+| **Power BI Desktop** | Dashboard development and visualization |
+| **Power Query** | ETL — data extraction, transformation, and loading |
+| **Snowflake Schema** | Normalized data model for analytics |
+| **DAX** | Calculated measures, KPIs, and dynamic logic |
 
-SQL Server
+---
 
-Power BI
+## Data Modeling
 
-Power Query (ETL)
+- Designed a **Snowflake Schema** for better normalization and reduced data redundancy
+- Established **relationships between fact and dimension tables**
+- Optimized the model for **query performance and scalability**
 
-Data Modeling (Snowflake Schema)
+### Data Model
 
-DAX
+![Data Model](https://github.com/user-attachments/assets/d5aa4806-7ab5-4b24-a384-7ed6a8662c35)
 
-🧱 Data Modeling
+*Snowflake schema with clearly defined fact-dimension relationships across sales, customers, products, and date dimensions.*
 
-Designed a Snowflake Schema for better normalization
+---
 
-Created relationships between fact and dimension tables
+## Dashboards Created
 
-Optimized the model for performance and scalability
+### Sales Overview Dashboard
+High-level view of overall financial and sales performance across regions and time periods.
 
-📊 Dashboards Created
-1️⃣ Sales Overview Dashboard
+![Sales Overview](https://github.com/user-attachments/assets/510a29e8-129e-4e95-9c2d-b4e9162dfcc1)
 
-Provides insights into overall financial and sales performance.
+---
 
-2️⃣ Customer Details Dashboard
+### Customer Details Dashboard
+Deep-dive into customer demographics, purchasing behavior, and revenue segmentation.
 
-Analyzes customer demographics, behavior, and segmentation.
+![Customer Details](https://github.com/user-attachments/assets/1e8b0353-27ad-491a-9ac0-2e9facb6596f)
 
-3️⃣ Product Details Dashboard
+---
 
-Explores product performance, revenue contribution, and profitability.
+### Product Details Dashboard
+Explores product performance, revenue contribution, and profitability by category.
 
-💡 Key Insights
-🔹 1. Financial Performance
+![Product Details](https://github.com/user-attachments/assets/22033eb3-d657-4fe2-bfdc-c5293388e895)
 
-💰 Total Sales: $29.36M
+---
 
-📈 Total Profit: $12.08M
+##  Key Insights
 
-📊 Profit Margin: 41.15%
+### 1. Financial Performance
 
-🧾 Avg Order Value: $26,120
+| Metric | Value |
+|---|---|
+| **Total Sales** | $29.36M |
+| **Total Profit** | $12.08M |
+| **Profit Margin** | 41.15% |
+| **Avg Order Value** | $26,120 |
 
-➡️ Indicates a high-profit, high-value transaction business model
+>  Indicates a **high-profit, high-value transaction** business model with strong operational efficiency.
 
-🌍 2. Regional Performance
+---
 
-🇺🇸 USA ($9.4M) and 🇦🇺 Australia ($9.1M) dominate revenue
+### 2. Regional Performance
 
-🇬🇧 UK, 🇩🇪 Germany, 🇫🇷 France form stable mid-tier markets
+| Region | Revenue | Notes |
+|---|---|---|
+| 🇺🇸 USA | $9.4M | Largest customer base |
+| 🇦🇺 Australia | $9.1M | High revenue with fewer customers → highest ARPU |
+| 🇬🇧 UK / 🇩🇪 Germany / 🇫🇷 France | Mid-tier | Stable, consistent markets |
+| 🇨🇦 Canada | Lowest | Underperforming region |
 
-🇨🇦 Canada is the lowest-performing region
+>  Australia stands out — generating near-equal revenue to the USA with a significantly smaller customer base.
 
-➡️ Australia shows high customer value despite smaller customer base
+---
 
-📈 3. Sales Trends (2011–2014)
+### 3. Sales Trends (2011–2014)
 
-Strong growth after 2012, peaking in Nov 2013 ($1.78M)
+- Strong growth trajectory post-2012, **peaking in November 2013 at $1.78M**
+- Clear **seasonal sales patterns** visible across all years
+- January 2014 drop attributed to **incomplete data**, not business decline
 
-Clear seasonal patterns in sales
+>  Business demonstrates high growth potential with predictable seasonal cycles.
 
-Sudden drop in Jan 2014 likely due to incomplete data
+---
 
-➡️ Business shows high growth with seasonal fluctuations
+### 4. Year-over-Year Growth
 
-📊 4. Growth Analysis
+| Period | Growth |
+|---|---|
+| 2011 → 2012 |  –17.43% decline |
+| 2012 → 2013 |  +179.87% growth |
+| Profit Margins | ~40% stable throughout |
 
-📉 2011 → 2012: -17.43% decline
+>  Strong recovery from 2012 dip, with profit margins holding steady — indicating consistent operational control.
 
-🚀 2012 → 2013: +179.87% growth
+---
 
-📌 Profit margins remained stable (~40%)
+### 5. Customer Insights
 
-➡️ Strong recovery with consistent operational efficiency
+**Demographics**
+- USA holds the **largest customer base** at 7,800+ customers
+- Australia achieves near-equivalent revenue with fewer customers — highest **Average Revenue Per User (ARPU)**
 
-👥 Customer Insights
-🌎 Demographics
+**Socio-Economic Segments**
+-  **Bachelor's degree holders** generate the highest total revenue
+-  **Professionals** are the top occupation segment — **$9.9M**
+-  **Skilled Manual workers** rank second — **$6.4M**
 
-🇺🇸 USA has the largest customer base (7.8K customers)
+**Gender Split**
+- Nearly equal contribution: **Female $15M | Male $15M**
 
-🇦🇺 Australia generates similar revenue with fewer customers → higher ARPU
+**Top Customer**
+-  **Dalton Perez** — Most frequent buyer with **28 orders**
 
-🎓 Socio-Economic Trends
+---
 
-🎓 Bachelor’s degree holders generate the highest revenue
+### 6. Product Insights
 
-💼 Professionals are the top-performing segment ($9.9M)
+**Category Revenue Breakdown**
 
-🛠️ Skilled Manual workers are second highest ($6.4M)
+| Category | Revenue Share | Notes |
+|---|---|---|
+|  **Bikes** | 96.46% ($28M) | Dominant revenue driver |
+| **Accessories** | Low revenue | Highest margin (~62.8%) |
+| **Clothing** | Low revenue | High volume, low value |
 
-⚖️ Gender Analysis
+>  **Bikes** drive revenue; **Accessories** drive margin. A classic anchor + add-on dynamic.
 
-Balanced contribution:
+**2013 Growth** was driven primarily by Bike sales. The 2014 dip reflects data limitations — not a business performance issue.
 
-Female: $15M
+---
 
-Male: $15M
+## Key Learnings
 
-🏆 Top Customer
+-  Connecting **SQL Server with Power BI** for live data integration
+-  Data transformation and cleansing using **Power Query (ETL)**
+-  Building and optimizing a **Snowflake Schema** data model
+-  Designing **multi-page interactive dashboards** in Power BI
+-  Applying **data storytelling** to generate business-focused insights
 
-Dalton Perez → Most frequent buyer (28 orders)
+---
 
-🛍️ Product Insights
-🚴 Category Performance
-
-Bikes generate 96.46% ($28M) of total revenue
-
-Accessories & Clothing = high volume, low revenue
-
-💰 Profitability
-
-Accessories have highest margins (~62.8%)
-
-Bikes = high revenue but lower margins
-
-➡️ Accessories act as high-margin add-ons
-
-📊 Growth Contribution
-
-2013 growth driven mainly by Bike sales
-
-2014 drop indicates data limitation, not business failure
-
-🚀 Key Learnings
-
-🔗 Connecting SQL Server with Power BI
-
-🔄 Data transformation using Power Query
-
-🧱 Building Snowflake Schema
-
-📊 Creating impactful dashboards
-
-🧠 Data storytelling & business insights generation
-
-📌 Use Case
+##  Use Cases
 
 This project is ideal for:
 
-Data Analysts & BI Developers
+-  **Data Analysts & BI Developers** looking to practice end-to-end Power BI workflows
+-  **Learning Power BI** from SQL connection through to dashboard delivery
+-  **Practicing data modeling** with a real-world normalized schema
+-  Building a **portfolio project** demonstrating full BI lifecycle skills
 
-Learning Power BI end-to-end workflow
+---
 
-Practicing data modeling and storytelling
+## Outcome
 
-💡 Outcome
+-  Transformed raw AdventureWorks data into **actionable, decision-ready insights**
+-  Built a **scalable, normalized Snowflake Schema** data model
+-  Delivered **three business-focused dashboards** covering sales, customers, and products
 
-Transformed raw data into actionable insights
+---
 
-Built a scalable and optimized data model
+## Project Structure
 
-Delivered business-focused dashboards for decision-making
+```
+ adventureworks-sales-dashboard
+ ┣  AdventureWorks_Dashboard.pbix     # Main Power BI report file
+ ┣  screenshots/                       # Dashboard preview images
+ ┃   ┣  sales_overview.png
+ ┃   ┣  customer_details.png
+ ┃   ┣  product_details.png
+ ┃   └  data_model.png
+ ┗  README.md                          # Project documentation
+```
 
-📊 Summary
-<img width="1394" height="615" alt="Screenshot 2026-03-17 223156" src="https://github.com/user-attachments/assets/510a29e8-129e-4e95-9c2d-b4e9162dfcc1" />
+---
 
-📊 Customer Details
-<img width="1391" height="619" alt="Screenshot 2026-03-17 223703" src="https://github.com/user-attachments/assets/1e8b0353-27ad-491a-9ac0-2e9facb6596f" />
+## Connect
 
-📊 Product Details
-<img width="1396" height="616" alt="Screenshot 2026-03-17 223841" src="https://github.com/user-attachments/assets/22033eb3-d657-4fe2-bfdc-c5293388e895" />
-
-☑️ Data Modeling
-<img width="745" height="591" alt="Screenshot 2026-03-17 224450" src="https://github.com/user-attachments/assets/d5aa4806-7ab5-4b24-a384-7ed6a8662c35" />
-
-
+If you found this project useful or have suggestions, feel free to open an **Issue** or submit a **Pull Request**.
